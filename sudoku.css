@@ -1,61 +1,62 @@
-body{
+body {
     text-align: center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-h1{
-    margin: 0;
-   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-#errors{
+h1 {
+    margin: 0;
+    font-family: 'Julee', cursive;
+}
+
+#errors {
     color: red;
 }
 
-#board{
-border: 3px solid black;
-height: 400px;
-width: 400px;
-margin : 0 auto;
-display: flex;
-flex-wrap: wrap;
+#board {
+    border: 3px solid black;
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.tile{
+.tile {
     border: 1px solid #989898;
     width: 43.1px;
-    height:43.1px;
+    height: 43.1px;
     font-size: 20px;
     justify-content: center;
     align-items: center;
-    display:flex;
-    
+    display: flex;
+
 }
 
-.digits{
+.digits {
     width: 400px;
-    height:40px;
+    height: 40px;
     margin: 27px auto 0 auto;
-display:flex;
-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 
-.number{
- 
+.number {
+
     width: 40px;
-    height:40px;
+    height: 40px;
     font-size: 20px;
     justify-content: center;
     align-items: center;
     margin-left: 1.76px;
     display: flex;
-  
+
 }
 
-.clickedNum{
+.clickedNum {
     background-color: #a9a9a9;
 }
 
-.clickedTile{
+.clickedTile {
     background-color: #a9a9a9;
 }
